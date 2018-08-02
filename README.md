@@ -1,2 +1,3 @@
-# fujion-plotly-js
-Web jar for https://github.com/plotly/plotly.js.
+# webjar-plotly-js
+Web jar for plotly.js.
+https://github.com/plotly/plotly.js

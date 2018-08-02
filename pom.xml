@@ -8,7 +8,7 @@
 	</parent>
 
 	<name>Plotly Library</name>
-	<artifactId>fujion-plotly-js</artifactId>
+	<artifactId>webjar-plotly-js</artifactId>
 	<version>1.39.3-SNAPSHOT</version>
 	<description>Plotly graphing library.</description>
 	
