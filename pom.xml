@@ -9,7 +9,7 @@
 
 	<name>Plotly Library</name>
 	<artifactId>webjar-plotly-js</artifactId>
-	<version>1.39.3-SNAPSHOT</version>
+	<version>1.39.3</version>
 	<description>Plotly graphing library.</description>
 	
 	<properties>
@@ -33,10 +33,10 @@
 						<id>precompile</id>
 						<configuration>
 							<target>
-								<get src="${src.url}" dest="${src.zipdir}/src.zip"/>
+								<get src="${src.url}" dest="${src.zipdir}/src.zip" />
 								<unzip src="${src.zipdir}/src.zip" dest="${src.tmpdir}" />
 								<move todir="${webjar.target}">
-									<fileset dir="${src.rootdir}" includes="dist/**,LICENSE,README.md"/>
+									<fileset dir="${src.rootdir}" includes="dist/**,LICENSE,README.md" />
 								</move>
 							</target>
 						</configuration>
@@ -45,4 +45,8 @@
 			</plugin>
 		</plugins>
 	</build>
+
+  <scm>
+    <tag>1.39.3</tag>
+  </scm>
 </project>
