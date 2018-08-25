@@ -9,7 +9,7 @@
 
 	<name>Plotly Library</name>
 	<artifactId>webjar-plotly-js</artifactId>
-	<version>1.40.1</version>
+	<version>1.40.1-1-SNAPSHOT</version>
 	<description>Plotly graphing library.</description>
 	
 	<properties>
@@ -45,8 +45,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-  <scm>
-    <tag>1.40.1</tag>
-  </scm>
 </project>
