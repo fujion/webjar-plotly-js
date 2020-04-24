@@ -15,13 +15,6 @@
 	<properties>
 		<src.url>https://github.com/plotly/plotly.js/archive/v${src.version}.zip</src.url>
 		<src.top>plotly.js-${src.version}</src.top>
-		<systemjs>
-			{
-				"paths": {
-					"plotly-js": "dist/plotly.js"
-				}
-			}			
-		</systemjs>
 	</properties>
 	
 	<build>
