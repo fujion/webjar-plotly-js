@@ -28,9 +28,9 @@
 							<target>
 								<get src="${src.url}" dest="${src.zipdir}/src.zip" />
 								<unzip src="${src.zipdir}/src.zip" dest="${src.tmpdir}" />
-								<move todir="${webjar.target}">
-									<fileset dir="${src.rootdir}" includes="dist/**,LICENSE,README.md" />
-								</move>
+								<copy todir="${webjar.target}">
+									<fileset dir="${src.rootdir}" includes="dist/,LICENSE,README.md" />
+								</copy>
 							</target>
 						</configuration>
 					</execution>

@@ -1,5 +1,5 @@
 {
-  "imports": {
+  "paths": {
     "plotly-js": "dist/plotly.js"
   }
 }
