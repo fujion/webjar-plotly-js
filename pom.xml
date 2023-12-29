@@ -26,6 +26,7 @@
 								<rule>file_exists README.md</rule>
 								<rule>file_contains LICENSE "MIT License"</rule>
 								<rule>file_exists dist/plotly.js</rule>
+								<rule>file_exists dist/plotly.min.js</rule>
 							</rules>
 						</configuration>
 					</execution>

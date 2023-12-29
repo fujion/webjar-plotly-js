@@ -6,10 +6,10 @@
     "postinstall": "gulp"
   },
   "dependencies": {
-    "plotly.js-dist": "${version.unrevise}"
+    "plotly.js-dist": "${version.unrevise}",
+    "plotly.js-dist-min": "${version.unrevise}"
   },
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-minify": "^3.1.0"
+    "gulp": "^4.0.0"
   }
 }
